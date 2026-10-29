@@ -22,6 +22,12 @@
 
 它会在桌面上呼吸、切换表情、弹出气泡，也能提醒你休息、陪你用番茄钟专注。连接 Claude Code、Codex 或 Antigravity 后，AI 编程任务完成时，桌宠会主动给你反馈。
 
+## 视频介绍
+
+15 秒了解 PetGen。
+
+https://github.com/user-attachments/assets/b0ba97eb-a524-4d05-9ca7-bc5ebebcc37d
+
 <p align="center">
   <img src="docs/images/readme-showcase.png" alt="AI 桌面宠物生成器：桌面通知、休息提醒、宠物中心、提醒列表、番茄钟和今日使用时长六宫格展示" width="880">
   <br>

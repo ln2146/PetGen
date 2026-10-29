@@ -22,6 +22,12 @@
 
 Your pet breathes, changes expressions, and speaks through bubbles. It can remind you to take breaks and keep you company during Pomodoro sessions. Connect Claude Code, Codex, or Antigravity, and your pet will let you know when an AI coding task finishes.
 
+## Video introduction
+
+A 15-second introduction to PetGen.
+
+https://github.com/user-attachments/assets/b0ba97eb-a524-4d05-9ca7-bc5ebebcc37d
+
 <p align="center">
   <img src="docs/images/readme-showcase.png" alt="PetGen in action: task notifications, break reminders, pet center, reminders, Pomodoro timer and daily usage." width="880">
   <br>
