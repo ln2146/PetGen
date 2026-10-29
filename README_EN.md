@@ -1,4 +1,12 @@
-# AI Desktop Pet Generator
+<p align="center">
+  <img src="docs/images/readme-cover-en.png" alt="PetGen: One prompt. Your desktop companion. AI-generated pets, desktop company and task alerts." width="100%">
+</p>
+
+<h1 align="center">PetGen · AI Desktop Pet Generator</h1>
+
+<p align="center">
+  Turn a prompt or reference image into your desktop companion.
+</p>
 
 <p align="center">
   <a href="README.md">Chinese</a> · <a href="README_EN.md"><b>English</b></a>
@@ -6,26 +14,24 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/python-%3E%3D3.10-blue.svg" alt="Python >= 3.10">
-  <img src="https://img.shields.io/badge/pytest%20%2B%20ruff-passing-brightgreen.svg" alt="pytest + ruff">
   <img src="https://img.shields.io/badge/macOS%20%7C%20Linux%20%7C%20Windows-supported-lightgrey.svg" alt="macOS / Linux / Windows">
+  <a href="https://github.com/ln2146/PetGen/releases"><img src="https://img.shields.io/badge/Download-Releases-4f46e5.svg" alt="Download releases"></a>
 </p>
 
-Turn a sentence, or a reference image, into a polished desktop pet that lives in your tray and on your desktop.
+**PetGen is an AI desktop pet generator that turns your ideas into a companion living on your desktop.** Adopt a built-in pet right away, or create your own from a prompt or reference image. Configure an AI API key when you want to generate a new pet.
 
-The project covers the full pipeline: AI image generation, local green-screen keying, frame slicing, standard `8 x 9` spritesheet packaging, and a tray-resident desktop app. It can also connect to Claude Code, Codex, and Antigravity so AI coding events become pet expressions, bubbles, and sound feedback.
+Your pet breathes, changes expressions, and speaks through bubbles. It can remind you to take breaks and keep you company during Pomodoro sessions. Connect Claude Code, Codex, or Antigravity, and your pet will let you know when an AI coding task finishes.
 
 <p align="center">
-  <table align="center">
-    <tr>
-      <td align="center"><img src="docs/images/hero.png" alt="Grey-white cat hero" width="340"></td>
-      <td align="center"><img src="docs/images/idle.gif" alt="Grey-white cat idle animation" width="180"></td>
-    </tr>
-    <tr>
-      <td align="center"><sub><b>Grey-white cat</b>: generated from a sentence or reference image</sub></td>
-      <td align="center"><sub>idle breathing animation</sub></td>
-    </tr>
-  </table>
+  <img src="docs/images/readme-showcase.png" alt="PetGen in action: task notifications, break reminders, pet center, reminders, Pomodoro timer and daily usage." width="880">
+  <br>
+  <sub>Desktop notifications, break reminders, pet center, reminders, Pomodoro timer and daily usage.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/images/idle.gif" alt="Grey-white cat desktop pet animation" width="220">
+  <br>
+  <sub>A preview of the grey-white cat in motion.</sub>
 </p>
 
 ## Featured Pets
@@ -57,11 +63,19 @@ Each pet is generated from one sentence, shares a consistent style, and can be u
 
 | Feature | Description |
 |---------|-------------|
-| Text or reference-image pet generation | Generate a pet from a short prompt, or keep colors, silhouette, and signature accessories from a reference image |
-| Local post-processing | Green-screen keying, connected-component frame slicing, normalization, and standard spritesheet packaging |
-| Tray-resident desktop app | System tray, floating pet, pet center, settings, speech bubbles, and celebration effects |
-| AI coding integration | Connect to Claude Code, Codex, and Antigravity so the pet reacts when AI coding tasks complete |
-| Voice, reminders, and pomodoro | TTS speech, synthesized sound effects, natural-language reminders, and a 25/5 focus timer |
+| AI pet generation | Create a pet from a prompt or reference image and automatically prepare its animation assets |
+| Desktop companionship | A pet that stays on your desktop with breathing animations, speech bubbles and changing expressions |
+| Pet center | Browse, switch, import and manage your companions |
+| Break reminders | Get a gentle nudge to move after a stretch of computer use |
+| Pomodoro timer | Focus for 25 minutes and let your pet remind you when the session ends |
+| Daily usage | View your current work session, daily total and reminder count |
+| AI task feedback | Receive pet notifications when Claude Code, Codex or Antigravity tasks finish |
+
+## Download
+
+To try PetGen without setting up a development environment, download an application package from [Releases](https://github.com/ln2146/PetGen/releases).
+
+Launch the app and use the tray menu to open the pet center, reminders, Pomodoro timer and usage panel. You can start with a built-in pet and configure an AI API key later if you want to generate your own.
 
 ## Quick Start
 
@@ -69,24 +83,16 @@ Each pet is generated from one sentence, shares a consistent style, and can be u
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[desktop]"
-
-cp .env.example .env
-# Then fill OPENAI_API_KEY in .env
+petgen app
 ```
 
-Generate a pet:
+To generate a new pet, first copy `.env.example` to `.env` and configure your API key as described below. Then run:
 
 ```bash
 petgen generate \
   --prompt "a chubby capybara programmer wearing tiny headphones, gentle and smart" \
   --name "Capybara Coder" \
   --output outputs/capybara-coder
-```
-
-Launch the desktop app:
-
-```bash
-petgen app
 ```
 
 ## Configuration

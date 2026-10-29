@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="docs/images/app-icon.png" alt="PetGen 应用图标" width="128">
+  <img src="docs/images/readme-cover-zh.png" alt="PetGen：一句话，生成你的桌面伙伴。AI 生成、桌面陪伴与任务提醒。" width="100%">
 </p>
 
-<h1 align="center">AI 桌面宠物生成器</h1>
+<h1 align="center">PetGen · AI 桌面宠物生成器</h1>
 
 <p align="center">
-  把一句话，或一张参考图，变成一只常驻桌面的可爱宠物。
+  一句话，或一张参考图，生成你的桌面伙伴。
 </p>
 
 <p align="center">
@@ -15,10 +15,12 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/macOS%20%7C%20Linux%20%7C%20Windows-supported-lightgrey.svg" alt="macOS / Linux / Windows">
-  <a href="https://github.com/ln2146/ai-desktop-pet-generator/releases"><img src="https://img.shields.io/badge/Download-Releases-4f46e5.svg" alt="Download releases"></a>
+  <a href="https://github.com/ln2146/PetGen/releases"><img src="https://img.shields.io/badge/Download-Releases-4f46e5.svg" alt="Download releases"></a>
 </p>
 
-PetGen 会把宠物养在桌面上：它可以呼吸、弹气泡、提醒你休息，也能在 Codex / Claude Code / Antigravity 任务完成时给你一个轻轻的反馈。你可以直接使用内置宠物，也可以自己生成新的形象。
+**PetGen 是一款 AI 桌面宠物生成器，把你的想法变成常驻桌面的可爱伙伴。** 你可以直接使用内置宠物，也可以用一句话或参考图创造自己的形象；生成新宠物时再配置 AI API Key 即可。
+
+它会在桌面上呼吸、切换表情、弹出气泡，也能提醒你休息、陪你用番茄钟专注。连接 Claude Code、Codex 或 Antigravity 后，AI 编程任务完成时，桌宠会主动给你反馈。
 
 <p align="center">
   <img src="docs/images/readme-showcase.png" alt="AI 桌面宠物生成器：桌面通知、休息提醒、宠物中心、提醒列表、番茄钟和今日使用时长六宫格展示" width="880">
@@ -61,6 +63,7 @@ PetGen 会把宠物养在桌面上：它可以呼吸、弹气泡、提醒你休�
 
 | 功能 | 说明 |
 |------|------|
+| AI 生成宠物 | 从一句话或参考图生成新形象，自动处理为桌宠动画素材 |
 | 桌面陪伴 | 宠物常驻桌面，支持呼吸动画、气泡反馈和表情切换 |
 | 宠物中心 | 浏览、切换、导入和管理你的桌宠伙伴 |
 | 休息提醒 | 连续使用电脑一段时间后，宠物会提醒你活动一下 |
@@ -73,7 +76,7 @@ PetGen 会把宠物养在桌面上：它可以呼吸、弹气泡、提醒你休�
 不想折腾环境的话，直接从 Release 下载应用包：
 
 <p align="center">
-  <a href="https://github.com/ln2146/ai-desktop-pet-generator/releases"><b>前往 Releases 下载最新版</b></a>
+  <a href="https://github.com/ln2146/PetGen/releases"><b>前往 Releases 下载最新版</b></a>
 </p>
 
 下载后启动桌宠应用，就可以在托盘里打开宠物中心、提醒列表、番茄钟和使用时长面板。想自己生成新宠物时，再配置 AI Key 即可。
