@@ -24,9 +24,9 @@
 
 ## 视频介绍
 
-15 秒了解 PetGen。
+**PetGen｜一句话，生成你的桌面伙伴。**
 
-https://github.com/user-attachments/assets/b0ba97eb-a524-4d05-9ca7-bc5ebebcc37d
+https://github.com/user-attachments/assets/7807c8af-c48c-4196-b42e-19bdac59c66f
 
 <p align="center">
   <img src="docs/images/readme-showcase.png" alt="AI 桌面宠物生成器：桌面通知、休息提醒、宠物中心、提醒列表、番茄钟和今日使用时长六宫格展示" width="880">

@@ -24,9 +24,9 @@ Your pet breathes, changes expressions, and speaks through bubbles. It can remin
 
 ## Video introduction
 
-A 15-second introduction to PetGen.
+**PetGen — One prompt. Your desktop companion.**
 
-https://github.com/user-attachments/assets/b0ba97eb-a524-4d05-9ca7-bc5ebebcc37d
+https://github.com/user-attachments/assets/7807c8af-c48c-4196-b42e-19bdac59c66f
 
 <p align="center">
   <img src="docs/images/readme-showcase.png" alt="PetGen in action: task notifications, break reminders, pet center, reminders, Pomodoro timer and daily usage." width="880">
